@@ -10,361 +10,452 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-    <title>Hero</title>
+    <title>Hypen</title>
 </head>
 
 <body style="font-family: poppins">
-    <div class=" pb-12">
-        <div
-            class="w-full bg m-auto backdrop-blur-md pt-12 bg-gray-50 lg:py-4 py-0 bg-cover  bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20101%20%284%29.png')]">
-            <nav class="w-full h-full">
-                <div class=" mx-auto px-6 py-1 xl:py-0 hidden lg:block">
-                    <div class="flex items-center justify-between ">
-                        <div>
-                            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/HYPHEN.svg" />
+    <div class="h-full w-full">
+        <nav
+            class="backdrop-blur-md bg-cover bg-gray-50  bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20101%20%284%29.png')]">
+            <div class=" mx-auto px-5 py-1 xl:py-0 hidden lg:block">
+                <div class="flex items-center justify-between  py-5">
+                    <div>
+                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/HYPHEN.svg" />
+                    </div>
+                    <div class="flex gap-12 ">
+                        <div class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
+                            Home
                         </div>
-                        <div class="flex gap-12 ">
-                            <div class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
-                                Home
-                            </div>
-                            <div class="hidden lg:flex ">
-                                <div class="relative">
-                                    <button class=" focus:outline-none  flex items-center relative"
-                                        onclick="dropdownHandler(this)">
-                                        <ul
-                                            class="p-2 2xl:w-[1084px] 2xl:-ml-40 xl:w-[1050px] lg:w-[970px] xl:-ml-72 lg:-ml-80  absolute top-12 hidden ">
-                                            <div class="bg-6 p-5 rounded-3xl">
-                                                <h1 class="text-2xl text-left text-gray-800">Resources</h1>
-                                                <div class="flex justify-between">
-                                                    <div class="">
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px] ">
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/bubble.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Free tools
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    Free tools for marketing improvement
-                                                                </h1>
-                                                            </div>
+                        <div class="hidden lg:flex ">
+                            <div class="relative">
+                                <button class=" focus:outline-none  flex items-center relative "
+                                    onclick="dropdownHandler(this)">
+                                    <ul
+                                        class="p-2 2xl:w-[1084px] 2xl:-ml-40 xl:w-[1050px] lg:w-[970px] xl:-ml-72 lg:-ml-80  absolute top-12 hidden ">
+                                        <div class="rounded-3xl p-5 bg-white backdrop-blur-md bg-6">
+                                            <h1 class="text-2xl text-left text-gray-800">Resources</h1>
+                                            <div class="flex justify-between ">
+                                                <div class="">
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px] ">
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/bubble.svg" />
                                                         </div>
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px]">
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/video.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Webinars
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    Events with marketing, operations, and professionals
-                                                                </h1>
-                                                            </div>
-                                                        </div>
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px]">
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/book.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Books
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    Detailed instructions with leading B2B teams
-                                                                </h1>
-                                                            </div>
-                                                        </div>
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px]">
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/sms.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Newsletter
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    Exclusive information and interesting stories, every
-                                                                    month
-                                                                </h1>
-                                                            </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Free tools
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                Free tools for marketing improvement
+                                                            </h1>
                                                         </div>
                                                     </div>
-                                                    <div class="">
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px]">
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/judge.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Help center
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    Get to know our features
-                                                                </h1>
-                                                            </div>
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px]">
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/video.svg" />
                                                         </div>
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px]">
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/lovely.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Customer stories
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    Get inspired by our customers
-                                                                </h1>
-                                                            </div>
-                                                        </div>
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px]">
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/book1.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Documentation
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    The knowledge hub for installing and maintaining
-                                                                </h1>
-                                                            </div>
-                                                        </div>
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px]">
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/lock.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Security
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    Protect user privacy and security to ensure
-                                                                    compliance
-                                                                </h1>
-                                                            </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Webinars
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                Events with marketing, operations, and professionals
+                                                            </h1>
                                                         </div>
                                                     </div>
-                                                    <div class="">
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px]">
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px]">
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/book.svg" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Books
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                Detailed instructions with leading B2B teams
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px]">
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/sms.svg" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Newsletter
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                Exclusive information and interesting stories, every
+                                                                month
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px]">
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/judge.svg" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Help center
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                Get to know our features
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px]">
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/lovely.svg" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Customer stories
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                Get inspired by our customers
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px]">
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/book1.svg" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Documentation
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                The knowledge hub for installing and maintaining
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px]">
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/lock.svg" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Security
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                Protect user privacy and security to ensure
+                                                                compliance
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px]">
 
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/bubble.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Free tools
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    Free tools for marketing improvement
-                                                                </h1>
-                                                            </div>
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/bubble.svg" />
                                                         </div>
-                                                        <div class="flex gap-5 pt-4 justify-start w-[248px]">
-                                                            <div class="">
-                                                                <img class="mt-1"
-                                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/video.svg" />
-                                                            </div>
-                                                            <div class="">
-                                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                                    Webinars
-                                                                </h1>
-                                                                <h1
-                                                                    class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                                    Events with marketing, operations, and professionals
-                                                                </h1>
-                                                            </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Free tools
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                Free tools for marketing improvement
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex gap-5 pt-4 justify-start w-[248px]">
+                                                        <div class="">
+                                                            <img class="mt-1"
+                                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/video.svg" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                                Webinars
+                                                            </h1>
+                                                            <h1
+                                                                class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                                Events with marketing, operations, and professionals
+                                                            </h1>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </ul>
-                                        <p class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
-                                            Resources
-                                        </p>
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
-                                Blog
-                            </div>
-                            <div class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
-                                Pricing
+                                        </div>
+                                    </ul>
+                                    <p class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
+                                        Resources
+                                    </p>
+                                </button>
                             </div>
                         </div>
-                        <div class="flex gap-12 items-center">
-                            <div class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
-                                Login
-                            </div>
-                            <button
-                                class="text-gray-800 text-sm font-medium bg-transparent hover:bg-gray-800  hover:text-white duration-300 py-3 px-6 border border-gray-800 rounded-full ">
-                                Get started
+
+                        <div class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
+                            Blog
+                        </div>
+                        <div class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
+                            Pricing
+                        </div>
+                    </div>
+                    <div class="flex gap-12 items-center">
+                        <div class="text-gray-800 text-sm font-normal cursor-pointer hover:text-black">
+                            Login
+                        </div>
+                        <button
+                            class="text-gray-800 text-sm font-medium bg-transparent hover:bg-gray-800  hover:text-white duration-300 py-3 px-6 border border-gray-800 rounded-full ">
+                            Get started
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav>
+            <div
+                class="py-4 px-6 w-full flex lg:hidden justify-between items-center  top-0 z-40   lg:py-4 py-0 bg-no-repeat  backdrop-blur-md bg-cover bg-gray-50 bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20101%20%284%29.png')]">
+                <div aria-label=" logo" role="img" tabindex="0" class="">
+                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/HYPHEN.svg" />
+                </div>
+                <div>
+                    <button id="menu" aria-label="open menu"
+                        class="focus:outline-none focus:ring-2 focus:ring-white rounded-md text-white"
+                        onclick="sidebarHandler(true)">
+                        <img class=""
+                            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/left-aligned-with-search-bar-and-icon-svg5.svg"
+                            alt="menu" />
+                    </button>
+                </div>
+            </div>
+            <!--Mobile responsive sidebar-->
+            <div class="w-full z-20 fixed overflow z-40 top-0 h-screen h-full flex-col justify-between lg:hidden pb-12 transition duration-150 ease-in-out  bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20101%20%289%29.png')]"
+                id="mobile-nav">
+                <div class="px-6">
+                    <div class="mt-6 flex w-full items-center justify-between">
+                        <div class="flex items-center justify-between w-full">
+
+                            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/HYPHEN.svg" />
+                            <button id="cross"
+                                class="focus:ring-2 focus:ring-white rounded-md focus:outline-none hidden text-white"
+                                onclick="sidebarHandler(false)">
+                                <img aria-label="Close"
+                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/black-simple-with-icons-svg3.svg"
+                                    alt="cross" />
                             </button>
                         </div>
                     </div>
-                </div>
-            </nav>
+                    <ul class="f-m-m">
 
-            <!-- For sm screen -->
-            <nav>
-                <div class="py-4 px-6 w-full flex lg:hidden justify-between items-center fixed top-0 z-40 overflow">
-                    <div>
-                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/HYPHEN.svg" />
-                    </div>
-                    <div>
-                        <button id="menu" aria-label="open menu"
-                            class="focus:outline-none focus:ring-2 focus:ring-white rounded-md text-white"
-                            onclick="sidebarHandler(true)">
-                            <img class=""
-                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/left-aligned-with-search-bar-and-icon-svg5.svg"
-                                alt="menu" />
-                        </button>
-                        <button id="cross"
-                            class="focus:ring-2 focus:ring-white rounded-md focus:outline-none hidden text-white"
-                            onclick="sidebarHandler(false)">
-                            <img aria-label="Close"
-                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/black-simple-with-icons-svg3.svg"
-                                alt="cross" />
-                        </button>
-                    </div>
-                </div>
-                <!--Mobile responsive sidebar-->
-                <div class="w-64 z-20 fixed overflow z-40  h-[1100px] top-0 bg-white shadow h-full flex-col justify-between lg:hidden pb-12 transition duration-150 ease-in-out bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20101%20%289%29.png')]"
-                    id="mobile-nav">
-                    <div class="px-6">
-                        <div class="mt-6 flex w-full items-center justify-between">
-                            <div class="">
-                                <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/HYPHEN.svg" />
-                            </div>
-                        </div>
-                        <ul class="">
-                            <li class="text-gray-800 pt-8">
-                                <p class="focus:outline-none text-gray-800">Home</p>
-                            </li>
+                        <li class="text-gray-800 pt-8">
+                            <p class="focus:outline-none text-gray-800">Home</p>
+                        </li>
 
-                            <li class="text-gray-800 pt-8">
+                        <li class="text-white pt-8">
+                            <div class="flex items-center justify-between">
                                 <div class="flex items-center">
-                                    <p class="focus:outline-none text-gray-800">Resources</p>
-                                    <div id="chevronup" onclick="listHandler(true)" onkeypress="listHandler(true)"
-                                        class="focus:outline-none focus:text-indigo-600 ml-12">
-                                        <img class="w-2"
-                                            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Vector-down-1.svg"
-                                            alt="up arrow" />
-                                    </div>
-                                    <div id="chevrondown" onclick="listHandler(false)" onkeypress="listHandler(false)"
-                                        class="focus:outline-none focus:text-indigo-600 hidden ml-12">
-                                        <img class="rotate-180 w-2"
-                                            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Vector-down-1.svg"
-                                            alt="down arrow" />
-                                    </div>
+                                    <p tabindex="0" class="text-gray-800 ">Resources
+                                    </p>
                                 </div>
-                                <div id="list" class="hidden bg-white rounded-xl bg-6 ">
-                                    <ul class="my-3">
-                                        <div class="flex gap-5 pt-4 justify-start w-full ">
-                                            <div class="">
-                                                <img class="mt-1"
-                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/bubble.svg" />
-                                            </div>
-                                            <div class="">
-                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                    Free tools
-                                                </h1>
-                                                <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                    Free tools for marketing improvement
-                                                </h1>
-                                            </div>
-                                        </div>
-                                        <div class="flex gap-5 pt-4 justify-start w-full">
-                                            <div class="">
-                                                <img class="mt-1"
-                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/video.svg" />
-                                            </div>
-                                            <div class="">
-                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                    Webinars
-                                                </h1>
-                                                <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                    Events with marketing, operations, and professionals
-                                                </h1>
-                                            </div>
-                                        </div>
-                                        <div class="flex gap-5 pt-4 justify-start w-full">
-                                            <div class="">
-                                                <img class="mt-1"
-                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/book.svg" />
-                                            </div>
-                                            <div class="">
-                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                    Books
-                                                </h1>
-                                                <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                    Detailed instructions with leading B2B teams
-                                                </h1>
-                                            </div>
-                                        </div>
-
-                                        <div class="flex gap-5 pt-4 justify-start w-full">
-                                            <div class="">
-                                                <img class="mt-1"
-                                                    src="https://tuk-cdn.s3.amazonaws.com/can-uploader/judge.svg" />
-                                            </div>
-                                            <div class="">
-                                                <h1 class="text-gray-800 text-sm font-medium text-left">
-                                                    Help center
-                                                </h1>
-                                                <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
-                                                    Get to know our features
-                                                </h1>
-                                            </div>
-                                        </div>
-
-                                    </ul>
+                                <div id="chevronup" onclick="listHandler(true)" onkeypress="listHandler(true)"
+                                    tabindex="0" class="focus:outline-none focus:text-indigo-600 ">
+                                    <img class="w-2"
+                                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Vector-down-1.svg"
+                                        alt="up arrow" />
                                 </div>
-                            </li>
-                            <li class="text-gray-800 pt-8">
-                                <p class="focus:outline-none text-gray-800">Blog</p>
-                            </li>
-                            <li class="text-gray-800 pt-8">
-                                <p class="focus:outline-none text-gray-800">Pricing</p>
-                            </li>
-                            <li class="text-gray-800 pt-8">
-                                <p class="focus:outline-none text-gray-800">Login</p>
-                            </li>
-                            <li class="text-gray-800 pt-8">
-                                <button
-                                    class="focus:outline-none text-gray-800 bg-transparent border border-gray-800 py-2.5 hover:bg-black hover:text-white rounded-full w-full ">Get
-                                    started</button>
-                            </li>
-                        </ul>
-                    </div>
+                                <div id="chevrondown" onclick="listHandler(false)" onkeypress="listHandler(false)"
+                                    tabindex="0" class="focus:outline-none focus:text-indigo-600 hidden">
+                                    <img class="rotate-180 w-2"
+                                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Vector-down-1.svg"
+                                        alt="down arrow" />
+                                </div>
+                            </div>
+                            <div id="list" class="hidden bg-white rounded-xl  px-3 pb-5">
+                                <ul class="my-3">
+                                    <div class="flex gap-5 pt-4 justify-start w-full ">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/bubble.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Free tools
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                Free tools for marketing improvement
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5 pt-4 justify-start w-full">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/video.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Webinars
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                Events with marketing, operations, and professionals
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5 pt-4 justify-start w-full">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/book.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Books
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                Detailed instructions with leading B2B teams
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5 pt-4 justify-start w-full">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/sms.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Newsletter
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                Exclusive information and interesting stories, every
+                                                month
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5 pt-4 justify-start w-full">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/judge.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Help center
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                Get to know our features
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5 pt-4 justify-start w-full">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/lovely.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Customer stories
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                Get inspired by our customers
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5 pt-4 justify-start w-full">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/book1.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Documentation
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                The knowledge hub for installing and maintaining
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5 pt-4 justify-start w-full">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/lock.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Security
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                Protect user privacy and security to ensure
+                                                compliance
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5 pt-4 justify-start w-full ">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/bubble.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Free tools
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                Free tools for marketing improvement
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5 pt-4 justify-start w-full">
+                                        <div class="">
+                                            <img class="mt-1"
+                                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/video.svg" />
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-gray-800 text-sm font-medium text-left">
+                                                Webinars
+                                            </h1>
+                                            <h1 class="text-gray-600 text-xs font-normal mt-1 text-left">
+                                                Events with marketing, operations, and professionals
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="text-gray-800 pt-8">
+                            <p class="focus:outline-none text-gray-800">Blog</p>
+                        </li>
+
+                        <li class="text-gray-800 pt-8">
+                            <p class="focus:outline-none text-gray-800">Pricing</p>
+                        </li>
+
+                        <li class="text-gray-800 pt-8">
+                            <p class="focus:outline-none text-gray-800">Login</p>
+                        </li>
+                        <li class="mt-8">
+                            <button
+                                class="focus:outline-none text-gray-800 bg-transparent border border-gray-800 py-2.5 hover:bg-black hover:text-white rounded-full w-full ">Get
+                                started
+                            </button>
+                        </li>
+
+                    </ul>
                 </div>
-            </nav>
-
-            <!-- Nav end -->
-
-            <!-- Hero Section -->
-            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-3">
-                <div class=" pt-16 ">
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <div
+            class="w-full bg-cover py-16  bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20101%20%284%29.png')]">
+            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-5 ">
+                <div class="">
                     <p
                         class="lg:text-7xl md:text-5xl text-3xl font-semibold text-center lg:max-w-[842px] md:max-w-[606px] w-full mx-auto ">
                         In any market,achieve
@@ -435,68 +526,76 @@
                 </div>
             </div>
         </div>
-        <!-- Hero section  -->
 
+        <!-- Hero section  -->
         <!-- Our Mission -->
-        <div
-            class="w-full bg m-auto backdrop-blur-md pt-12 lg:py-4 py-0 bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/30px%20Cross%20%2826%29.png')]">
-            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-3 lg:mt-32 md:pt-10 pt-10">
-                <h1
-                    class="text-gray-800 lg:text-5xl md:text-4xl text-2xl  lg:max-w-[842px] w-full font-normal text-center mx-auto">
-                    Our mission
-                    is to help businesses grow faster and smarter
-                </h1>
-                <h1
-                    class="text-gray-600 lg:text-lg text-base font-normal text-center text-center mx-auto lg:max-w-[842px] w-full lg:mt-8 md:mt-6 mt-4">
-                    We’re a company of builders, working together to shape the
-                    future of revenue-driven marketing. Just
-                    as we help companies build a foundation for growth
-                </h1>
-                <div
-                    class="lg:grid-cols-4 md:grid-cols-2 grid-cols-1 grid gap-5 lg:max-w-[1280px] w-full mx-auto lg:mt-16 md:mt-12 mt-10 gap-5 ">
-                    <div class="md:mt-0  mt-3">
-                        <img class="mx-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%20427319045.svg">
-                        <h1 class="text-center text-gray-800 text-2xl font-medium mt-6">Founded</h1>
-                        <h1 class="text-center text-gray-600 text-lg font-normal mt-6 md:max-w-[296px] w-full mx-auto">
-                            The company was founded in 1997
-                        </h1>
+        <div class="">
+            <div
+                class="w-full  m-auto backdrop-blur-md  lg:py-4 py-0 bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/30px%20Cross%20%2826%29.png')]">
+                <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-5 lg:mt-12 md:pt-10 pt-10">
+                    <h1
+                        class="text-gray-800 lg:text-5xl md:text-4xl text-2xl  lg:max-w-[842px] w-full font-normal text-center mx-auto">
+                        Our mission
+                        is to help businesses grow faster and smarter
+                    </h1>
+                    <h1
+                        class="text-gray-600 lg:text-lg text-base font-normal text-center text-center mx-auto lg:max-w-[842px] w-full lg:mt-8 md:mt-6 mt-4">
+                        We’re a company of builders, working together to shape the
+                        future of revenue-driven marketing. Just
+                        as we help companies build a foundation for growth
+                    </h1>
+                    <div
+                        class="lg:grid-cols-4 md:grid-cols-2 grid-cols-1 grid gap-5 lg:max-w-[1280px] w-full mx-auto lg:mt-16 md:mt-12 mt-10 gap-5 ">
+                        <div class="md:mt-0  mt-3">
+                            <img class="mx-auto"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%20427319045.svg">
+                            <h1 class="text-center text-gray-800 text-2xl font-medium mt-6">Founded</h1>
+                            <h1
+                                class="text-center text-gray-600 text-lg font-normal mt-6 md:max-w-[296px] w-full mx-auto">
+                                The company was founded in 1997
+                            </h1>
+                        </div>
+                        <div class="md:mt-0  mt-3">
+                            <img class="mx-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/status-up.svg">
+                            <h1 class="text-center text-gray-800 text-2xl font-medium mt-6">50M growth</h1>
+                            <h1
+                                class="text-center text-gray-600 text-lg font-normal mt-6 md:max-w-[296px] w-full mx-auto">
+                                Over 500 million records are enriched
+                            </h1>
+                        </div>
+                        <div class=" lg:mt-0 md:mt-3 mt-3">
+                            <img class="mx-auto"
+                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%20427319046.svg">
+                            <h1 class="text-center text-gray-800 text-2xl font-medium mt-6">400K User</h1>
+                            <h1
+                                class="text-center text-gray-600 text-lg font-normal mt-6 md:max-w-[296px] w-full mx-auto">
+                                Approximately 4000k+ are using Hyphen
+                            </h1>
+                        </div>
+                        <div class="lg:mt-0 md:mt-3 mt-3">
+                            <img class="mx-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/empty-wallet.svg">
+                            <h1 class="text-center text-gray-800 text-2xl font-medium mt-6">1K+ customers</h1>
+                            <h1
+                                class="text-center text-gray-600 text-lg font-normal mt-6 md:max-w-[296px] w-full mx-auto">
+                                Giving a thousands of business customers
+                            </h1>
+                        </div>
                     </div>
-                    <div class="md:mt-0  mt-3">
-                        <img class="mx-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/status-up.svg">
-                        <h1 class="text-center text-gray-800 text-2xl font-medium mt-6">50M growth</h1>
-                        <h1 class="text-center text-gray-600 text-lg font-normal mt-6 md:max-w-[296px] w-full mx-auto">
-                            Over 500 million records are enriched
-                        </h1>
+                    <div class="flex justify-center items-center py-16">
+                        <button
+                            class="text-white bg-black hover:bg-gray-900 focus:bg-gray-900 duration-150 text-center md:w-32 w-full py-3 rounded-full">
+                            Get Started
+                        </button>
                     </div>
-                    <div class=" lg:mt-0 md:mt-3 mt-3">
-                        <img class="mx-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%20427319046.svg">
-                        <h1 class="text-center text-gray-800 text-2xl font-medium mt-6">400K User</h1>
-                        <h1 class="text-center text-gray-600 text-lg font-normal mt-6 md:max-w-[296px] w-full mx-auto">
-                            Approximately 4000k+ are using Hyphen
-                        </h1>
-                    </div>
-                    <div class="lg:mt-0 md:mt-3 mt-3">
-                        <img class="mx-auto" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/empty-wallet.svg">
-                        <h1 class="text-center text-gray-800 text-2xl font-medium mt-6">1K+ customers</h1>
-                        <h1 class="text-center text-gray-600 text-lg font-normal mt-6 md:max-w-[296px] w-full mx-auto">
-                            Giving a thousands of business customers
-                        </h1>
-                    </div>
-                </div>
-                <div class="flex justify-center items-center py-16">
-                    <button
-                        class="text-white bg-black hover:bg-gray-900 focus:bg-gray-900 duration-150 text-center md:w-32 w-full py-3 rounded-full">
-                        Get Started
-                    </button>
                 </div>
             </div>
         </div>
-        <!-- Our Mission -->
 
+        <!-- Our Mission -->
         <!-- Features -->
         <div
-            class=" bg m-auto pt-12 lg:py-4 py-0 bg-cover  w-full bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20289%20%281%29.png')]">
-            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-3  pt-10">
+            class="m-auto pt-12 lg:py-4 py-0 bg-cover  w-full bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20289%20%281%29.png')]">
+            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-5  pt-10">
                 <div class="">
                     <div class="lg:flex lg:flex-row flex flex-col flex-col-reverse gap-6">
                         <div class="w-full">
@@ -704,7 +803,7 @@
         <!-- Stats -->
         <div
             class=" bg m-auto lg:py-4 py-0 bg-cover  w-full bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20289%20%281%29.png')]">
-            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-3  pt-10">
+            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-5  pt-10 pb-10">
                 <div class="lg:flex lg:flex-row flex flex-col flex-col-reverse justify-between items-center">
                     <div class="lg:max-w-[515.3px] w-full bg-gray-50 px-5 py-4">
                         <div class="flex">
@@ -1229,7 +1328,7 @@
         <!-- Partners -->
         <div
             class="w-full bg m-auto backdrop-blur-md pt-12 lg:py-4 py-0 bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/30px%20Cross%20%2827%29.png')]">
-            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-3 lg:pt-12 md:pt-7 pt-10">
+            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-5 lg:pt-12 md:pt-7 pt-10">
                 <div class="lg:flex md:max-w-[1027px] w-full mx-auto gap-9 justify-center items-center">
                     <div class="md:flex lg:justify-between justify-center gap-9 items-center">
                         <div class="">
@@ -1296,13 +1395,13 @@
         <!-- Contact -->
         <div
             class=" bg m-auto lg:py-12 py-5 mt-10  bg-cover  w-full bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%20112%20%2816%29.png')]">
-            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-3  pt-10">
+            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-5  pt-10">
                 <div class="lg:flex gap-12 justify-between items-center">
                     <div class="lg:max-w-[515px] w-full border rounded-2xl lg:px-8 md:px-8 px-3 py-12 lg:mt-0 mt-12"
                         style="
-                        background: rgba(255, 255, 255, 0.5);
-                        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
-                      ">
+                            background: rgba(255, 255, 255, 0.5);
+                            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
+                          ">
                         <h1 class="text-gray-800 lg:text-3xl md:text-3xl text-2xl text-center font-medium">
                             Get Started
                         </h1>
@@ -1333,28 +1432,28 @@
                         <h1 class="text-gray-800 lg:text-5xl md:text-3xl text-3xl font-medium">
                             Ready to chat?
                         </h1>
-                        <h1 class="text-gray-600 text-lg mt-3 font-normal">
+                        <h1 class="text-gray-600 md:text-lg text-base mt-3 font-normal">
                             how Hyphen powers effective revenue engines of the world's
                             fastest-growing businesses.
                         </h1>
                         <div class="lg:flex md:flex justify-between items-between mt-8">
                             <div class="">
                                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/call-calling-2.svg" />
-                                <h1 class="text-gray-900 font-medium text-xl mt-5">Call Us</h1>
-                                <h1 class="text-gray-600 text-lg font-normal mt-2">
+                                <h1 class="text-gray-900 font-medium md:text-xl text-lg mt-5">Call Us</h1>
+                                <h1 class="text-gray-600 md:text-lg text-base font-normal mt-2">
                                     486-847-8221
                                 </h1>
-                                <h1 class="text-gray-600 text-lg font-normal mt-2">
+                                <h1 class="text-gray-600 md:text-lg text-base font-normal mt-2">
                                     863-356-7013
                                 </h1>
                             </div>
                             <div class="mt-8 md:mt-0 lg:mt-0">
                                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/sms-notification-2.svg" />
-                                <h1 class="text-gray-900 font-medium text-xl mt-5">Email</h1>
-                                <h1 class="text-gray-600 text-lg font-normal mt-2">
+                                <h1 class="text-gray-900 font-medium  md:text-xl text-lg mt-5">Email</h1>
+                                <h1 class="text-gray-600  md:text-lg text-base font-normal mt-2">
                                     Christian.Terry@gmail.com
                                 </h1>
-                                <h1 class="text-gray-600 text-lg font-normal mt-2">
+                                <h1 class="text-gray-600  md:text-lg text-base font-normal mt-2">
                                     Aisha.Pacocha@yahoo.com
                                 </h1>
                             </div>
@@ -1369,55 +1468,57 @@
         <!-- Footer -->
         <div
             class="w-full bg m-auto backdrop-blur-md  lg:py-12 py-0 bg-[url('https://tuk-cdn.s3.amazonaws.com/can-uploader/30px%20Cross%20%2826%29.png')]">
-            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-4 lg:pt-12 md:pt-14 pt-10">
-                <div class="lg:flex max-w-[1280px] mx-auto justify-between gap-5">
-                    <div class="lg:w-[338px] w-full">
-                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/HYPHEN%20%281%29.svg" />
+            <div class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto px-5 lg:pt-12 md:pt-14 pt-10 mb-12">
+                <div class="lg:flex  mx-auto justify-between gap-5">
+                    <div class="lg:w-[338px] w-full ">
+                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/HYPHEN%20%282%29.svg" />
                     </div>
                     <div
                         class="lg:w-[952px] w-full gap-12 md:grid-cols-3 grid-cols-1 grid justify-between lg:mt-0 mt-8">
                         <div class="">
                             <div class="">
-                                <h1 class="text-2xl text-gray-800 font-medium">Company</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-3">Company</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Features</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Works</h1>
+                                <h1 class="md:text-2xl text-xl text-gray-800 font-medium">Company</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-3">Company</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Features</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Works</h1>
                             </div>
                             <div class="mt-12">
-                                <h1 class="text-2xl text-gray-800 font-medium">Help</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-3">Customer Support</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Delivery Details</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Terms & conditions</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Privacy policy</h1>
+                                <h1 class="md:text-2xl text-xl text-gray-800 font-medium">Help</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-3">Customer Support</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Delivery Details</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Terms & conditions</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Privacy policy</h1>
                             </div>
                         </div>
                         <div class="">
                             <div class="">
-                                <h1 class="text-2xl text-gray-800 font-medium">Resources</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-3">Free ebooks</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Webinars</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Free tools</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Newsletter</h1>
+                                <h1 class="md:text-2xl text-xl text-gray-800 font-medium">Resources</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-3">Free ebooks</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Webinars</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Free tools</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Newsletter</h1>
                             </div>
                             <div class="md:mt-5 mt-12">
-                                <h1 class="text-2xl text-gray-800 font-medium">Company</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-3">About Us</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Careers</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Press</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Customers</h1>
+                                <h1 class="md:text-2xl text-xl text-gray-800 font-medium">Company</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-3">About Us</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Careers</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Press</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Customers</h1>
                             </div>
                         </div>
                         <div class="">
                             <div class="">
-                                <h1 class="text-2xl text-gray-800 font-medium">Use Casesy</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-3">Account prioritization</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Ad targeting</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Conversion tracking</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Data enrichment</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Form optimizations</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Lead scoring & routing</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Visitor insights</h1>
-                                <h1 class="text-gray-600 text-base font-normal mt-1">Advanced personalization
+                                <h1 class="md:text-2xl text-xl text-gray-800 font-medium">Use Casesy</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-3">Account prioritization
+                                </h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Ad targeting</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Conversion tracking</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Data enrichment</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Form optimizations</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Lead scoring & routing
+                                </h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Visitor insights</h1>
+                                <h1 class="text-gray-600 md:text-base text-sm font-normal mt-1">Advanced personalization
                                 </h1>
                             </div>
                         </div>
@@ -1425,10 +1526,13 @@
                 </div>
             </div>
         </div>
-        <!-- Footer -->
     </div>
-
+    <!-- Footer -->
     <style>
+        .overflow {
+            overflow-y: auto;
+        }
+
         .text-gradient {
             background: linear-gradient(93.33deg,
                     #fd944e 2.95%,
@@ -1452,7 +1556,7 @@
         }
 
         .bg-6 {
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(255, 255, 255, 0.998);
             border: 1px solid #F3F4F6;
             box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
             backdrop-filter: blur(12.5px);
@@ -1669,14 +1773,14 @@
         let sideBar = document.getElementById("mobile-nav");
         let menu = document.getElementById("menu");
         let cross = document.getElementById("cross");
-        sideBar.style.transform = "translateX(-260px)";
+        sideBar.style.transform = "translateX(-900px)";
         const sidebarHandler = (check) => {
             if (check) {
                 sideBar.style.transform = "translateX(0px)";
                 menu.classList.add("hidden");
                 cross.classList.remove("hidden");
             } else {
-                sideBar.style.transform = "translateX(-260px)";
+                sideBar.style.transform = "translateX(-900px)";
                 menu.classList.remove("hidden");
                 cross.classList.add("hidden");
             }
@@ -1699,7 +1803,6 @@
             let single = element.getElementsByTagName("ul")[0];
             single.classList.toggle("hidden");
         }
-
     </script>
 </body>
 
